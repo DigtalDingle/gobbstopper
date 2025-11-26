@@ -1,0 +1,23 @@
+Merge Conflicts
+
+This folder is a safe place to practice creating and resolving merge conflicts in Git.
+
+What is a merge conflict?
+
+A merge conflict happens when two branches change the same part of a file and Git cannot automatically decide which version is correct.
+To finish the merge, I have to open the file and choose what should stay.
+
+What I will practice
+
+Creating intentional conflicts
+
+Identifying conflict markers in files
+
+Editing the file to resolve the conflict
+
+Completing the merge after the fix
+
+Why this matters
+
+Merge conflicts are a normal part of real development.
+Being able to resolve them quickly and cleanly is a core skill every developer needs.
