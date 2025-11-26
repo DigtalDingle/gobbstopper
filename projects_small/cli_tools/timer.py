@@ -1,9 +1,10 @@
 import time
 
-# Simple command-line timer
-seconds = 5
-print(f"Timer started for {seconds} seconds...")
+print("Simple Timer")
+seconds = int(input("Enter number of seconds: "))
 
-time.sleep(seconds)
+for i in range(seconds, 0, -1):
+    print(i)
+    time.sleep(1)
 
-print("Time's up!")
+print("Time’s up!")
