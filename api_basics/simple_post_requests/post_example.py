@@ -1,14 +1,12 @@
 import requests
 
-# Simple POST request example
-url = "https://httpbin.org/post"
+url = "https://api.github.com"
 
-payload = {
-    "name": "Boss",
-    "project": "Gobbstopper"
-}
+response = requests.get(url, headers={"User-Agent": "gobbstopper-demo"})
 
-response = requests.post(url, json=payload)
+print("Status:", response.status_code)
 
-print("Status Code:", response.status_code)
-print("Response JSON:", response.json())
+try:
+    print("Body:", response.json())
+except ValueError:
+    print("Body is not valid JSON.")
