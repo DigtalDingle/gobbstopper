@@ -1,0 +1,4 @@
+try:
+    risky_action()
+except Exception as e:
+    print("Error:", e)
