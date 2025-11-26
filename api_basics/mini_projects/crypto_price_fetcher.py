@@ -1,14 +1,33 @@
 import requests
 
-# Simple crypto price fetcher
-url = "https://api.coingecko.com/api/v3/simple/price"
-params = {"ids": "bitcoin", "vs_currencies": "usd"}
+def get_price(coin_id):
+    url = f"https://api.coingecko.com/api/v3/simple/price"
+    params = {
+        "ids": coin_id,
+        "vs_currencies": "usd"
+    }
 
-response = requests.get(url, params=params)
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        data = response.json()
 
-if response.status_code == 200:
-    data = response.json()
-    btc_price = data.get("bitcoin", {}).get("usd")
-    print("Bitcoin Price (USD):", btc_price)
+        if coin_id in data:
+            return data[coin_id]["usd"]
+        else:
+            print("Coin not found in response.")
+            return None
+
+    except Exception as e:
+        print("Error:", e)
+        return None
+
+
+# Example usage
+coin = "bitcoin"
+price = get_price(coin)
+
+if price is not None:
+    print(f"{coin.capitalize()} price: ${price}")
 else:
-    print("Error fetching price:", response.status_code)
+    print("Could not fetch price.")
