@@ -1,37 +1,52 @@
 # Gobbstopper
 
-Gobbstopper is an endless-learning development project — a personal training ground built to sharpen my fundamentals, expand my skills, and guarantee that I always have something meaningful to work on.
+Gobbstopper is a never-ending development sandbox designed to sharpen core programming fundamentals.  
+The goal is simple: always have something to learn, practice, or improve as a developer.
 
-This repository has no finish line. It evolves as I evolve.
+---
 
 ## Purpose
+This project serves as a continuous training ground.  
+Any time there's nothing else to do on GitHub, Gobbstopper provides new tasks, concepts, and experiments to work on.
 
-Gobbstopper exists to:
-- Master core developer fundamentals through continuous practice.
-- Build technical depth in the areas every developer relies on.
-- Explore new tools, APIs, frameworks, and concepts as I grow.
-- Maintain a long-term space for self-improvement and experimentation.
-- Give myself a permanent project I can return to anytime I want to develop, learn, or sharpen skills.
+---
 
-## What Gobbstopper Focuses On
+## Structure
+The project is organized into learning modules:
 
-### Core Skills
-- **Control Structures:** loops, conditionals, flow control patterns.
-- **Data Structures:** lists, dictionaries/maps, sets, tuples, transformations.
-- **Git & Version Control:** commits, branching, conflicts, best practices.
+- **control_structures/**  
+  Practice with loops, conditionals, and flow control.
 
-### Intermediate Skills
-- **APIs:** building, consuming, authentication, error handling.
-- **OOP:** classes, objects, inheritance, abstraction.
-- **Problem Solving:** logic, debugging, step-by-step reasoning.
+- **data_structures/**  
+  Lists, dictionaries, sets, and small data-processing exercises.
 
-### The Future
-Gobbstopper will grow into:
-- More advanced API projects
-- Real tooling
-- Mini frameworks
-- Automation helpers
-- Experiments with new languages, ideas, and architectures
+- **git_and_github/**  
+  Version control fundamentals and safe merge-conflict practice.
 
-Where it goes is up to how far I push myself.
+- **api_basics/**  
+  GET/POST requests, error handling, and small API mini-projects.
 
+- **projects_small/**  
+  Simple tools and text parsers combining multiple fundamentals.
+
+- **notes/**  
+  Concepts, snippets, and a running TODO list.
+
+---
+
+## How to Use This Repo
+- Follow the folder structure from easiest to hardest.  
+- Add new exercises and mini-projects as skills improve.  
+- Expand into intermediate and advanced topics when ready.  
+- Keep the repo active — Gobbstopper never ends.
+
+---
+
+## Why the Name?
+Like the candy, this project is meant to last forever — something you always come back to, one layer at a time.
+
+---
+
+## Status
+Foundations complete.  
+Next phase: Intermediate modules (OOP, modules, CLI tools, small apps)
