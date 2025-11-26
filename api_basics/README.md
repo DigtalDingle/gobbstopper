@@ -1,21 +1,13 @@
-API Basics
+# API Basics
 
-This folder contains practice material for working with APIs.
-I will learn how to send requests, handle responses, and work with data from external services.
+This folder contains examples and mini-projects for learning how to work with APIs.  
+I'll practice sending requests, handling responses, managing errors, and understanding how services communicate.
 
-What I'll practice
+### Included
+- `simple_get_requests/` — Basic GET requests  
+- `simple_post_requests/` — Basic POST requests  
+- `error_handling/` — Handling failed requests  
+- `mini_projects/` — Small API-driven programs
 
-Making simple GET requests
-
-Making POST requests
-
-Handling errors and bad responses
-
-Reading JSON data
-
-Building small API-powered scripts
-
-Why this matters
-
-APIs connect my code to the outside world.
-Mastering them unlocks everything from automation to real-time data apps.
+### Goal
+Become comfortable interacting with external data and services.
