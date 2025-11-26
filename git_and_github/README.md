@@ -1,25 +1,16 @@
 Git & GitHub
 
-This section helps you master the tools developers use every day to track changes, collaborate, and manage code.
+This folder contains practice material for mastering version control.
+Every developer uses Git, and becoming fluent with it makes project work faster, cleaner, and easier to manage.
 
-What you’ll learn
+What’s inside
 
-How to create commits
+basic_commands.md — Common Git actions and examples
 
-How to branch and merge
+branching_demo/ — Practice creating, switching, and merging branches
 
-How to resolve conflicts
+merge_conflicts/ — Safe space to create and resolve merge conflicts
 
-How to push and pull from GitHub
+Goal
 
-How to understand real-world workflows
-
-Included
-
-Basic command references
-
-Branching examples
-
-Merge conflict walkthroughs
-
-Notes for common workflows
+Build comfort and confidence using Git so it becomes a natural part of your workflow instead of something you have to think about.
