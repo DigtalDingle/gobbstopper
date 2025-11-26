@@ -1,0 +1,2 @@
+Keeping the program from crashing when something unexpected happens.
+Python uses try / except blocks to catch errors.
