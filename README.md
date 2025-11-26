@@ -35,5 +35,3 @@ Gobbstopper will grow into:
 
 Where it goes is up to how far I push myself.
 
-## Structure
-
