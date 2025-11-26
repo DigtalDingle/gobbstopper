@@ -1,8 +1,7 @@
-# Simple text counter
-text = "Gobbstopper is the project that never ends."
+text = input("Enter text: ")
 
+character_count = len(text)
 word_count = len(text.split())
-char_count = len(text)
 
+print("Characters:", character_count)
 print("Words:", word_count)
-print("Characters:", char_count)
