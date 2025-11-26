@@ -1,0 +1,4 @@
+data = {"key": "value"}
+
+value = data.get("key")
+print(value)
